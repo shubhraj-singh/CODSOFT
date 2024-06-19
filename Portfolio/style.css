@@ -1,0 +1,305 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    height: 40px;
+    width: 40px;
+}
+
+body {
+    background-color: rgb(15 23 42);
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #b2bcd8;
+}
+
+/* Navbar */
+div.nav {
+    display: flex;
+    place-content: center;
+    margin-top: 40px;
+}
+
+.nav .li-1 {
+    display: flex;
+    margin-left: 80px;
+    margin-top: 10px;
+}
+
+div.name {
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 7px;
+    margin-left: 10px;
+}
+
+div.li-11 {
+    display: flex;
+    margin-left: 350px;
+    padding: 10px 0px;
+}
+
+.li-11 .item {
+    margin: 10px;
+    padding: 0px 12px;
+}
+
+div.li-11 div {
+    margin: 10px;
+}
+
+/*About Section */
+
+.section {
+    height: 20vh;
+    display: flex;
+    place-content: center;
+    margin-top: 40px;
+}
+
+.section .box{
+    height: 40px;
+    width: 40px;
+    margin: 10px;
+}
+
+.section .box1 {
+    margin-right: 150px;
+}
+
+.section .box1 img {
+    border:1px solid rgb(91, 165, 165) ;
+    height: 180px;
+    width: 150px;
+    border-radius: 80px;
+}
+
+.section .box2 {
+    align-content: center;
+    height: 140px;
+    width: 760px;
+}
+
+.section .box2 .line{
+    border: 0.1px solid rgb(91, 165, 165);
+    width: 690px;
+}
+
+.section .box2 p {
+    margin-top: 10px;
+    font-size: smaller;
+}
+
+/* Skill Section */
+
+.skillsection {
+    height: 30vh;
+    margin-top: 80px;
+    align-items: start;
+}
+
+.skillbox {
+    height: 200px;
+    width: 760px;
+    margin-left: 190px;
+    margin-top: 10px;
+}
+
+.skillbox .line{
+    border: 0.1px solid rgb(91, 165, 165);
+    width: 640px;
+}
+
+.skillbox ul li{
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.skillbox .col{
+    font-size: smaller;
+    display: flex;
+    margin-left: -40px;
+}
+
+.skillbox .colu {
+    margin-top: 20px;
+    margin-left: 40px;
+}
+/* Project Section */
+
+.projectbox {
+    margin-left: 30vw;
+}
+
+.projectbox ul {
+    margin-top: 10px;
+}
+
+.projectbox .line {
+    border: 0.1px solid rgb(91, 165, 165);
+    width: 640px;
+}
+
+.projectbox .col {
+    margin-left: -80px;
+    display: flex;
+}
+
+.projectbox .col1 {
+    margin-left: 80px;
+    width: 158px;
+    font-size: smaller;
+}
+
+.projectbox .col1 p {
+    margin-top: 6px;
+}
+
+/* Resume section */
+
+.resume {
+    margin-top: 70px;
+    margin-left: 200px;
+}
+
+.resume button{   
+     background-color: rgb(15 23 42);
+     border:1px solid rgb(91, 165, 165);
+     color: #b2bcd8;
+     border-radius: 20px;
+     padding: 10px 10px ;
+    box-shadow:1px 1px 1px 1px #b2bcd8;
+}
+
+.resume a {
+    color:#b2bcd8;
+    text-decoration: none;
+}
+
+.resume button:hover{
+    border:2px solid rgb(30, 42, 87);
+}
+
+/* Contact Section */
+
+.contactsection{
+    /* border: 2px solid white; */
+    margin-top: 40px;
+    height: 5vh;
+    display: flex;
+    margin-left: 190px;
+}
+
+.contactsection .email {
+    display: flex;
+}
+
+.contactsection .contact {
+    margin-left: 30px;
+    display: flex;
+}
+
+.social .logo {
+    display: grid;
+    position: sticky;
+    padding: 0px 50px;
+    margin-top: 40px;
+    margin-bottom: -390px;
+    justify-content: end;
+}
+
+.logo img{
+    margin-top: 10px;
+}
+
+/* Footer */
+
+footer {
+    background-color: #121d3a;
+    height: 60vh;
+    align-content: center;
+    margin-top: 90px;
+}
+
+.subscribebox {
+    background-color: white;
+    height: 245px;
+    width: 300px;
+    border-radius: 20px;
+    margin-left: 190px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.subscribebox .h1 {
+    color: rgb(27 183 211);
+    font-size: 23px;
+    margin-top: 18px;
+}
+
+.subscribebox .address {
+    font-size: smaller;
+    margin-top: 20px;
+}
+
+.subscribebox input {
+    margin: 0;
+    height: 50px;
+    width: 275px;
+    border-radius: 0px;
+    border: 1px solid #8080804f;
+}
+
+.subscribebox input:hover {
+    border: 2px solid rgb(106, 247, 240);
+    border-radius:10px ;
+    box-shadow: 5px 1px 5px 0px #49bfedee;
+}
+
+.subscribebox button {
+    background-color: rgb(27 183 211);
+    border-radius: 5px;
+    height: 50px;
+    width: 280px;
+    border: 0px;
+    margin-top: 10px;
+    color: white;
+    font-size: large;
+    font-weight: 700;
+}
+
+footer .copyright {
+    height: 100px;
+    place-content: end;
+}
+
+footer .F1 {
+    display: flex;
+}
+
+footer .f1content {
+    margin-left: 260px;
+    margin-top: 60px;
+    height: 100px;
+    width: 500px;
+    text-align: center;
+}
+footer .f1content .text {
+    font-weight: 700;
+    font-size: 50px;
+}
+
+footer .f1content .p1 {
+    font-size:medium;
+    margin-top: 10px;
+    width: 520px;
+    color: #647191;
+}
+
+footer .copyright .c1{
+    color: rgb(91, 165, 165);
+    text-align: center;
+}
